@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * display a text message
+ * main - Entry point
+ * Return: Always 0
  */
 int main(void)
 {
