@@ -2,6 +2,7 @@
 
 /**
  * _islower - check char case
+ * @c : char to be checked
  * Return: 0 or 1
  */
 
