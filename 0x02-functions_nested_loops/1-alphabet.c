@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_alphabet - func
@@ -15,4 +15,4 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-}
+i}
