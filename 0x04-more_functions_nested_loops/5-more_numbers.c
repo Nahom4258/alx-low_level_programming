@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - print from 0-14 10 times
- * Return: 0
+ * Return: void
  */
 
 void more_numbers(void)
@@ -18,7 +18,7 @@ void more_numbers(void)
 		j = 0;
 		while (j < 15)
 		{
-			_putchar(j + '0');
+			_putchar('0' + j);
 			j++;
 		}
 		_putchar('\n');
