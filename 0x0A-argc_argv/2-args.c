@@ -5,9 +5,9 @@
  * @argv: argument values
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-	int counter = 0;
+	int counter;
 
 	for (counter = 0; counter < argc; counter++)
 	{
