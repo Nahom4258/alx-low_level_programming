@@ -1,18 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - print all arguments recieved
- * @argc: arg counter
- * @argv: argument values
+ * main - prints the number of arguments passed into the program
+ * @argc: int
+ * @argv: list
  * Return: 0
  */
+
 int main(int argc, char const *argv[])
 {
-	int counter;
+int i = 0;
 
-	for (counter = 0; counter < argc; counter++)
-	{
-		printf("%s\n", argv[counter]);
-	}
+while (argc--)
+{
+	printf("%s\n", argv[i]);
+	i++;
+}
 
-	return (0);
-}	
+return (0);
+}
