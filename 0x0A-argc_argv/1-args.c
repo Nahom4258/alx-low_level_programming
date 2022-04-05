@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - accepts argc and argv
+ * main - print no of arguments passed
  * @argc: arg counter
  * @argv: arg values
  * Return: 0
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	(void)argv;
 
