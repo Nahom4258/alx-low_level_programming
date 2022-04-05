@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
 	int counter;
 
-	for (counter = argc - 1; counter >= 0; counter--)
+	for (counter = 0; counter < argc; counter++)
 		printf("%s\n", argv[counter]);
 
 	return (0);
