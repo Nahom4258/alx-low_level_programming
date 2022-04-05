@@ -1,1 +1,1 @@
-This is a directory for 0x09 Static Libraries
+this directory contains files concerning static libraries
